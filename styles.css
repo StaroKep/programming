@@ -45,12 +45,23 @@ h1 {
 
 article {
     min-height: 100vh;
+    min-width: 30rem;
     max-width: 30rem;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     margin: 3rem 0;
+}
+
+article h1 {
+    width: 100%;
+    text-align: center;
+}
+
+article span {
+    width: 100%;
+    text-align: center;
 }
 
 article p {
