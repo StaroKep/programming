@@ -72,11 +72,6 @@ a:active {
     color: crimson;
 }
 
-.fixed-link {
-    display: block;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    padding: 1rem;
-    background: rgb(250, 250, 250);
+.header__margin-span {
+    margin-bottom: 1rem;
 }
